@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rustify</title>
+
+    <!-- Trunk compiles the crate to WASM and injects the loader -->
+    
+<script type="module">
+import init, * as bindings from './rustify-frontend-307f8b907f50b94c.js';
+const wasm = await init({ module_or_path: './rustify-frontend-307f8b907f50b94c_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <!-- If you don't want CSS yet, delete the next line -->
+    <link rel="stylesheet" href="./styles-e5d7a9cac18a65d2.css" integrity="sha384-LEbgiE1kp50JANKLUyejfGF0vb7AZDRrK9C65qNKhqJd31PI4QNS5cPjJUVSbjl7"/>
+  <link rel="modulepreload" href="./rustify-frontend-307f8b907f50b94c.js" crossorigin="anonymous" integrity="sha384-TCfJekoP7kNzwpgLOqyliqxJ0UW/Tiut7u9zimqqSnBKUPdL914x0KPvynxb0NDc"><link rel="preload" href="./rustify-frontend-307f8b907f50b94c_bg.wasm" crossorigin="anonymous" integrity="sha384-wAvAyH7+g9TjiDptA6zrMCxFNyEBy8KoDtfyrjcPGmlJ2fdkdNOI3qiBdH21c6jC" as="fetch" type="application/wasm"></head>
+  <body>
+    <noscript>This app needs JavaScript enabled.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

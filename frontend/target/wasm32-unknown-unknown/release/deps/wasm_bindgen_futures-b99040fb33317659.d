@@ -1,0 +1,9 @@
+/Users/genesisargueta/Desktop/fall25/rustify/target/wasm32-unknown-unknown/release/deps/wasm_bindgen_futures-b99040fb33317659.d: /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/lib.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/queue.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/task/singlethread.rs
+
+/Users/genesisargueta/Desktop/fall25/rustify/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-b99040fb33317659.rlib: /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/lib.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/queue.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/task/singlethread.rs
+
+/Users/genesisargueta/Desktop/fall25/rustify/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-b99040fb33317659.rmeta: /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/lib.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/queue.rs /Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/task/singlethread.rs
+
+/Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/lib.rs:
+/Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/queue.rs:
+/Users/genesisargueta/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.54/src/task/singlethread.rs:
