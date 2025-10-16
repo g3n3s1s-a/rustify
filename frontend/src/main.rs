@@ -19,15 +19,28 @@ struct Track {
 
 // dev: call backend on 127.0.0.1:8080; prod: same-origin
 fn api_base() -> String {
+    // Replace with your Cloud Run URL after deployment
     let window = web_sys::window().expect("window");
     let loc = window.location();
     let host = loc.host().unwrap_or_default();
+    
     if host.contains("localhost") || host.contains("127.0.0.1") {
-        "http://127.0.0.1:8080".to_string()
+        "http://127.0.0.1:8081".to_string()
     } else {
-        loc.origin().unwrap_or_else(|_| String::from(""))
+        // YOUR CLOUD RUN URL HERE
+        "https://spotify-api-885145268827.us-central1.run.app".to_string()
     }
 }
+//fn api_base() -> String {
+  //  let window = web_sys::window().expect("window");
+    //let loc = window.location();
+    //let host = loc.host().unwrap_or_default();
+    //if host.contains("localhost") || host.contains("127.0.0.1") {
+      //  "http://127.0.0.1:8080".to_string()
+   // } else {
+     //   loc.origin().unwrap_or_else(|_| String::from(""))
+   // }
+//}
 
 // cute music-note icon for list items
 fn note_icon() -> Html {

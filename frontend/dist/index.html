@@ -8,8 +8,8 @@
     <!-- Trunk compiles the crate to WASM and injects the loader -->
     
 <script type="module">
-import init, * as bindings from './rustify-frontend-307f8b907f50b94c.js';
-const wasm = await init({ module_or_path: './rustify-frontend-307f8b907f50b94c_bg.wasm' });
+import init, * as bindings from '/rustify-frontend-12b2110f28096c1b.js';
+const wasm = await init({ module_or_path: '/rustify-frontend-12b2110f28096c1b_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -19,10 +19,12 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
     <!-- If you don't want CSS yet, delete the next line -->
-    <link rel="stylesheet" href="./styles-e5d7a9cac18a65d2.css" integrity="sha384-LEbgiE1kp50JANKLUyejfGF0vb7AZDRrK9C65qNKhqJd31PI4QNS5cPjJUVSbjl7"/>
-  <link rel="modulepreload" href="./rustify-frontend-307f8b907f50b94c.js" crossorigin="anonymous" integrity="sha384-TCfJekoP7kNzwpgLOqyliqxJ0UW/Tiut7u9zimqqSnBKUPdL914x0KPvynxb0NDc"><link rel="preload" href="./rustify-frontend-307f8b907f50b94c_bg.wasm" crossorigin="anonymous" integrity="sha384-wAvAyH7+g9TjiDptA6zrMCxFNyEBy8KoDtfyrjcPGmlJ2fdkdNOI3qiBdH21c6jC" as="fetch" type="application/wasm"></head>
+    <link rel="stylesheet" href="/styles-e60f6d05b4311c18.css" integrity="sha384-x3qQ8DVri6ObSWZWPjc/8BscPCEIjxjZghzv7t2oIX1H/gSfYSn2rCSf5oZKjz3Z"/>
+  <link rel="modulepreload" href="/rustify-frontend-12b2110f28096c1b.js" crossorigin="anonymous" integrity="sha384-0r5YhkdVhtFc/2v49Sjj939wHHNpAsx5JDHnWxyegZ5aS5MA1vCKsFuXYCNGpeUt"><link rel="preload" href="/rustify-frontend-12b2110f28096c1b_bg.wasm" crossorigin="anonymous" integrity="sha384-f2qiRtzz832bxwxvhlyzxjrQzqDK3x7pmSMdhWKN3WRM6VeoEjdwpqxnUOhclcmi" as="fetch" type="application/wasm"></head>
   <body>
+
     <noscript>This app needs JavaScript enabled.</noscript>
     <div id="root"></div>
+
   </body>
 </html>
